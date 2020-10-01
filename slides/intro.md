@@ -20,9 +20,7 @@ class: center, middle, title
 1. Introduction
 1. PSFT & OCI Use Cases
 1. Cloud Manager 
-1. Topology, Template, Environment
-1. Custom Deployments
-1. Non Cloud Manger Deployments
+1. Beyond Cloud Manger
 1. Q&A
 
 ---

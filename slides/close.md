@@ -1,3 +1,14 @@
+class: center, middle, pad-none
+
+![:img CM Baker, 95%](images/cm-baker.png)
+
+---
+class: center, middle, pad-none
+
+![:img All Bakers, 95%](images/all-bakers.png)
+
+---
+
 class: center, middle
 
 # [psadmin.io/oci](https://psadmin.io/oci)

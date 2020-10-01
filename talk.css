@@ -1,7 +1,25 @@
 /* Override template style for this talk here */
 .float img {
     float: left;
+}
+
+.float-left img {
+    float: left;
+}
+
+.float-right img {
+    float: right;
+}
+
+.pad-top img{    
     padding-top: 25px;
+}
+
+.pad-right img{
+    padding-right: 50px;    
+}
+.pad-none {
+    padding: 0;    
 }
 
 .apples ul {
@@ -10,6 +28,14 @@
 
 .apples li:before {
     content: "\1f34e";
+}
+
+.crossmark li:before {
+    content: "\274c";
+}
+
+.checkmark li:before {
+    content: "\2705";
 }
 
 .white {

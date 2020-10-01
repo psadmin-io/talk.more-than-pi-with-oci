@@ -6,13 +6,13 @@ class: center, middle, blue
 
 class: middle, apples
 
-.float[![:img fruit picker](images/fruit.jpg)]
+.float[.pad-top[![:img fruit picker](images/fruit.jpg)]]
 
 ???
 ---
 class: middle, apples
 
-.float[![:img fruit picker](images/fruit.jpg)]
+.float[.pad-top[![:img fruit picker](images/fruit.jpg)]]
 
 </br>
 </br>
@@ -21,21 +21,36 @@ class: middle, apples
 </br>
 </br>
 </br>
+* **PUM, DEMO, POC**
+
+???
+
+---
+class: middle, apples
+
+.float[.pad-top[![:img fruit picker](images/fruit.jpg)]]
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+* **DEV, TEST **
 * PUM, DEMO, POC
 
 ???
-
 ---
 class: middle, apples
 
-.float[![:img fruit picker](images/fruit.jpg)]
+.float[.pad-top[![:img fruit picker](images/fruit.jpg)]]
 
 </br>
 </br>
 </br>
 </br>
 </br>
-</br>
+* **STAGE, DR**
 * DEV, TEST 
 * PUM, DEMO, POC
 
@@ -43,13 +58,13 @@ class: middle, apples
 ---
 class: middle, apples
 
-.float[![:img fruit picker](images/fruit.jpg)]
+.float[.pad-top[![:img fruit picker](images/fruit.jpg)]]
 
 </br>
 </br>
 </br>
 </br>
-</br>
+* **PROD**
 * STAGE, DR
 * DEV, TEST 
 * PUM, DEMO, POC
@@ -58,12 +73,12 @@ class: middle, apples
 ---
 class: middle, apples
 
-.float[![:img fruit picker](images/fruit.jpg)]
+.float[.pad-top[![:img fruit picker](images/fruit.jpg)]]
 
 </br>
 </br>
 </br>
-</br>
+* **SANDBOX, PTF**
 * PROD
 * STAGE, DR
 * DEV, TEST 
@@ -73,11 +88,11 @@ class: middle, apples
 ---
 class: middle, apples
 
-.float[![:img fruit picker](images/fruit.jpg)]
+.float[.pad-top[![:img fruit picker](images/fruit.jpg)]]
 
 </br>
 </br>
-</br>
+* **ADV HA/DR**
 * SANDBOX, PTF
 * PROD
 * STAGE, DR
@@ -88,10 +103,10 @@ class: middle, apples
 ---
 class: middle, apples
 
-.float[![:img fruit picker](images/fruit.jpg)]
+.float[.pad-top[![:img fruit picker](images/fruit.jpg)]]
 
 </br>
-</br>
+* **AUTO SCALE/PATCH**
 * ADV HA/DR
 * SANDBOX, PTF
 * PROD
@@ -100,57 +115,3 @@ class: middle, apples
 * PUM, DEMO, POC
 
 ???
----
-class: middle, apples
-
-.float[![:img fruit picker](images/fruit.jpg)]
-
-</br>
-* AUTO SCALE/PATCH
-* ADV HA/DR
-* SANDBOX, PTF
-* PROD
-* STAGE, DR
-* DEV, TEST 
-* PUM, DEMO, POC
-
-???
-
----
-
-class: center, middle, blue
-
-# Cloud Manager
-
-???
-
-Assuming most have heard of this.
-
----
-class: center, middle, black
-
-![:img Cloud is Easy!, 100%](images/cloudeasy.gif)
-
-???
-
-As of image 11, not always! Depends on use case
-
----
-class: middle, apples
-
-.float[![:img fruit picker](images/fruit.jpg)]
-
-</br>
-* ~~AUTO SCALE/PATCH~~
-* ~~ADV HA/DR~~
-* ~~SANDBOX, PTF~~
-* ~~PROD~~
-* ~~STAGE, DR~~
-* *DEV, TEST*
-* PUM, DEMO, POC
-
-???
-
-* Why bad? TODO
-* DB limitations? TODO
-* Question even Dev\Test
