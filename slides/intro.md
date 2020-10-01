@@ -1,53 +1,29 @@
-class: center, middle
+class: center, middle, title
 
-# Title of the Talk
+# Baking More than PI with OCI
 
-Your Name
+Kyle Benson
 
-![:img psadmin.io, 50%](images/psadmin_io.png)
+![psadmin.io](images/psadmin_io_white.png)
 
-Session ID: **12345**
+Session ID: **100740**
 
-https://wiki.psadmin.io/talk.TALKNAME
+---
+class: center, middle, title
 
-???
-
-Notes go here
+![:img Let's Bake!, 90%](images/chef.gif)
 
 ---
 
 # Agenda
 
 1. Introduction
-1. Talks
-1. Questions
-
-???
-
-Notes go here
-
----
-
-# About psadmin.io
-
-Providing *PeopleSoft* and *Oracle Cloud* services with a knowledge sharing and training first focus.
-
-* Services
-* Conference
-* Training
-* Blog
-* Podcast
-* Community
-
----
-
-# Dan Iverson
-
-* PeopleSoft Architect
-* Oracle Cloud Infrastructure Architect
-* [Oracle ACE](https://psadmin.io/ace-dan)
-* [Oracle Certified](https://www.youracclaim.com/users/dan-iverson/badges)
-* 17+ Years using PeopleSoft and Oracle
+1. PSFT & OCI Use Cases
+1. Cloud Manager 
+1. Topology, Template, Environment
+1. Custom Deployments
+1. Non Cloud Manger Deployments
+1. Q&A
 
 ---
 

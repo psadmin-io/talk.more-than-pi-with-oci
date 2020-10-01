@@ -1,11 +1,20 @@
 class: center, middle
 
-# Questions?
+# [psadmin.io/oci](https://psadmin.io/oci)
 
 ---
 
-# Contact psadmin.io
+# Thank you!
 
-* psadmin.io/oci
-* psadmin.io/community
-* info@psadmin.io
+**Session ID** 100740
+
+**Slides** [wiki.psadmin.io/talk.more-than-pi-with-oci](https://wiki.psadmin.io/talk.more-than-pi-with-oci)
+
+**Kyle Benson**
+* [linkedin.com/in/kylebenson](https://www.linkedin.com/in/kylebenson)
+* [twitter.com/kbenson](https://twitter.com/kbenson)
+* [github.com/kbens](https://github.com/kbens)
+
+[![psadmin.io](images/psadmin_io_blue.png)](https://psadmin.io)
+* [twitter.com/psa_io](https://twitter.com/psa_io)
+* [github.com/psadmin-io](https://github.com/psadmin-io)

@@ -1,1 +1,17 @@
 /* Override template style for this talk here */
+.float img {
+    float: left;
+    padding-top: 25px;
+}
+
+.apples ul {
+    list-style: none;
+}
+
+.apples li:before {
+    content: "\1f34e";
+}
+
+.white {
+    color: white;
+}
