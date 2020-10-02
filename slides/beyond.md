@@ -72,13 +72,47 @@ Uses this to build all the OCI Resources
 * Maybe leverage the CM library in future?
 
 ---
+
+# ioco
+## psadmin.io Cloud Operations Utility
+
+A python utility for common tasks related to administering PeopleSoft in the Cloud
+
+[github.com/psadmin-io/ioco](https://github.com/psadmin-io/ioco)
+
+```bash
+$ # Examples
+$ ioco oci block --make-file-system --mount
+$ ioco dpk deploy --dpk-type=IH
+```
+
+---
 class: middle, center, gray
 
 # Demo
 
 ???
 
-* DPK Repository
-* Python
-* OCI API
+* Cloud Console
+    * Show CM build status?
+    * Show Cloud Shell
 * Terraform
+    * `terraform apply --var-file=demo.tfvars -auto-approve > /tmp/tf.log &`
+    * `cd ps-instance`
+    * `ll`
+    * `view instance.tf`
+    * Show `example.tf`
+    * Show `demo.tfvars` 
+    * Show instance in console
+    * connect to new instance
+    * `tail /var/log/cloud.init`    
+    * `tail /u01/app/ioco/ioco.log` 
+* DPK Repository
+    * `tree -L 3 /cm_dpk_files/dpk/linux`
+* Python
+    * `cd /cm_dpk_files/cloud`
+    * `cd /u01/app/ioco`
+    * `cat conf.json`
+    * `tail -F /u01/app/ioco/psft-dpk-setup.log`
+* Cleanup
+    * `terraform destroy --var-file=demo.tfvars`
