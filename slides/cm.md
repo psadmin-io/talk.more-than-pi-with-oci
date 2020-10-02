@@ -31,17 +31,39 @@ class: middle, apples
 
 ???
 
-* My opinion, as of CM 11
-* Why bad? TODO
-* DB limitations? TODO
+* As of CM 11, I feel its use is pretty limited
 * Question even Dev\Test
 
 ---
 
 # Considerations
 
-* List a few things here that are concerns with CM
-* Maybe good too?
+Good
+* Subscribe to DPK Downloads
+* Self Service Operations
+* Automated Upgrades/Patching
+* Good "Management" Node
+
+"Not Great"
+
+* Creates all resources per Environment
+* Inflexible 
+* Refreshes actions limited
+* Password Management
+
+???
+
+* Good
+    * Install Phire on same box? Other things?
+* Bad
+    * Can't do "shared" resources
+        * Leads to sprawl
+        * Instances
+        * Load Balancer
+        * DB systems
+        * ExaCS, but each DB needs its own home
+* Not as flexible
+* Refresh needs needs to fit in "custom scripts"
 
 ---
 class: center, middle, white
@@ -162,9 +184,11 @@ class: middle, center
 
 ???
 
-* Can't use it actually! TODO
-* Control domain attributes and config in templates\env overrides.
+* Can't use it actually! 
+* Used to be there in OCI-C versions, < Image 8
+* Now control domain attributes and config in templates\env overrides.
 * CM will generate needed yaml from that.
+* Still not enough? Leverage pre and post provision scripts some how
 
 ---
 class: middle, center, gray
@@ -192,5 +216,5 @@ class: middle, center, gray
 * Environment
     * Show FSS option
     * Set Passwords
-    * Create
-    * Show how to start/stop/etc
+    * "Create"
+    * Show previous ENV build

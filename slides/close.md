@@ -8,8 +8,7 @@ class: center, middle, pad-none
 ![:img All Bakers, 95%](images/all-bakers.png)
 
 ---
-
-class: center, middle
+class: center, middle, black, white-links
 
 # [psadmin.io/oci](https://psadmin.io/oci)
 

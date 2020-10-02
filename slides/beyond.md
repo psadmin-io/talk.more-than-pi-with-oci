@@ -42,7 +42,6 @@ class: center, middle, blue
 * NFS mounts to /cm_dpk_files as read-only
 * Uses these DPK when provisioning 
 * You can use it too!
-* TODO - does it copy local, then unpack and run?
 
 ---
 

@@ -41,3 +41,8 @@
 .white {
     color: white;
 }
+
+.white-links a {
+    color: white;
+    text-decoration: none;
+}
