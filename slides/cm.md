@@ -140,7 +140,7 @@ Custom scripts can use CM provisioning environment variables.
 
 ```python
 # python
-os.environ['PSFT_ACCESS_ID'] = ''xyz" 
+os.environ['PSFT_ACCESS_ID'] = "xyz" 
 ```
 ```bash
 # bash
