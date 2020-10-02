@@ -173,6 +173,24 @@ class: middle, center, gray
 
 ???
 
-Show CM STUFF
-
-* TODO
+* My Settings
+* CM Settings
+* Repository
+* Topology
+    * Show delivered PUM
+    * Create new one (DB and Mid)
+* Template
+    * Add New
+        * IH Linux
+        * "Reconnect Topology"
+        * Edit Custom Attributes
+        * Validate Network
+        * Security (DEV:PACL_*)
+            * Cloud Administrator (PACL_CAD)
+            * Cloud PeopleSoft Administrator (PACL_PAD)
+            * Self-Service User (PACL_SSC)
+* Environment
+    * Show FSS option
+    * Set Passwords
+    * Create
+    * Show how to start/stop/etc
