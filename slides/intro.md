@@ -13,6 +13,12 @@ class: center, middle, title
 
 ![:img Let's Bake!, 90%](images/chef.gif)
 
+???
+
+* You can really do a lot more than PI and PUM in OCI
+* It might seem a little crazy, but it can be done
+* We can use some of the same tools as CM, but take it to the next level
+
 ---
 
 # Agenda

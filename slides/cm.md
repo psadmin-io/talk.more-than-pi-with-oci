@@ -44,12 +44,12 @@ Good
 * Automated Upgrades/Patching
 * Good "Management" Node
 
-"Not Great"
+*"Not Great"*
 
 * Creates all resources per Environment
-* Inflexible 
 * Refreshes actions limited
 * Password Management
+* Inflexible/Black-box 
 
 ???
 
@@ -185,10 +185,11 @@ class: middle, center
 ???
 
 * Can't use it actually! 
-* Used to be there in OCI-C versions, < Image 8
+* Used to be there in OCI-C versions, < Image 9?
 * Now control domain attributes and config in templates\env overrides.
 * CM will generate needed yaml from that.
 * Still not enough? Leverage pre and post provision scripts some how
+* Heard they might look to re-add this
 
 ---
 class: middle, center, gray

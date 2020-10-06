@@ -39,6 +39,7 @@ class: center, middle, blue
 
 ???
 
+* Uses File Storage Service
 * NFS mounts to /cm_dpk_files as read-only
 * Uses these DPK when provisioning 
 * You can use it too!
@@ -97,21 +98,26 @@ class: middle, center, gray
     * Show Cloud Shell
 * Terraform
     * `terraform apply --var-file=demo.tfvars -auto-approve > /tmp/tf.log &`
-    * `cd ps-instance`
-    * `ll`
-    * `view instance.tf`
+    * `ll *.tf`
     * Show `example.tf`
     * Show `demo.tfvars` 
+    * Only do this if we need to kill time
+        * `cd ps-instance`
+        * `ll`
+        * `view instance.tf`
+    * `ssh opc@123`
     * Show instance in console
     * connect to new instance
     * `tail /var/log/cloud.init`    
-    * `tail /u01/app/ioco/ioco.log` 
+    * `tail /u01/app/ioco/logs/ioco.log` 
 * DPK Repository
-    * `tree -L 3 /cm_dpk_files/dpk/linux`
+    * `df -Th`
+    * `cd /cm_dpk_files`
+    * `tree -L 3 dpk/linux`
 * Python
-    * `cd /cm_dpk_files/cloud`
+    * `cd cloud`
     * `cd /u01/app/ioco`
     * `cat conf.json`
-    * `tail -F /u01/app/ioco/psft-dpk-setup.log`
+    * `tail -F /u01/app/ioco/logs/psft-dpk-setup.log`
 * Cleanup
     * `terraform destroy --var-file=demo.tfvars`
